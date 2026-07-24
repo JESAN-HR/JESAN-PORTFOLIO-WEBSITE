@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* One-time metallic gradient animation */
+@keyframes metallicShineOnce {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Button shimmer animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.metallic-text-onetime {
+  background: linear-gradient(
+    90deg,
+    #9ca3af 0%,
+    #465264 15%,
+    #4f2d54 30%,
+    #ac21be 45%,
+    #3f65af 60%,
+    #523264 85%,
+    #0b0c0e 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: metallicShineOnce 2.5s ease-in-out forwards;
+}
+
+.dark .metallic-text-onetime {
+  background: linear-gradient(
+    90deg,
+    #6b7280 0%,
+    #9ca3af 15%,
+    #d1d5db 30%,
+    #ffffff 45%,
+    #d1d5db 60%,
+    #9ca3af 85%,
+    #6b7280 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #8b5cf6, #ec4899);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #7c3aed, #db2777);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #374151;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
