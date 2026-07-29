@@ -76,7 +76,7 @@ const Footer = () => {
                 className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors duration-200"
               >
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">mkhaque.com</span>
+                <span className="text-sm">jesan.engineer</span>
               </a>
             </motion.div>
             <motion.div
@@ -87,7 +87,7 @@ const Footer = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
             >
               <Phone className="w-4 h-4 text-gray-400" />
-              <span className="text-sm text-gray-400">+49 01525 xxx</span>
+              <span className="text-sm text-gray-400">+880158xxxxxx</span>
             </motion.div>
           </div>
 

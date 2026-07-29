@@ -84,7 +84,7 @@ const Header = () => {
                 <span className="text-white font-bold text-sm">MK</span>
               </div>
               <span className="text-lg md:text-xl font-bold text-gray-900 dark:text-white">
-                Khairul Haque
+                MD. Habibur Rahman Jesan
               </span>
             </motion.div>
 
