@@ -1,4 +1,4 @@
-# Khairul Haque — Portfolio Website
+# MD. Habibur Rahman Jesan — Portfolio Website
 
 A personal portfolio website built with React, TypeScript, and Tailwind CSS. Features smooth animations, dark mode support, and a fully responsive layout.
 
@@ -57,18 +57,18 @@ src/
 └── index.css
 public/
 ├── images/           # Project screenshots
-└── M M Khairul Haque_CV_2025.pdf
+└── Jesan.pdf
 ```
 
 ## Highlighted Projects
 
 | Project | Stack | Live |
 |---|---|---|
-| CaptionCraft AI | Next.js, Firebase, Stripe | [Demo](https://captioncraftai-ten.vercel.app/) |
-| Quick Split Together | React, TypeScript, Firebase | [Demo](https://quick-split-together.vercel.app) |
-| Task Manager | Vanilla JS, Tailwind CSS | [Demo](https://task-manager-theta-ten-72.vercel.app/) |
-| Pyonet Agency | Next.js, Shadcn UI | [Demo](https://pyonet-next.vercel.app/) |
-| Movie API App | React, REST API | [Demo](https://api-project-movie-app.vercel.app/) |
+| 0 | 0 | [Demo](0) |
+| 0 | 0 | [Demo](0) |
+| 0 | 0 | [Demo](0) |
+| 0 | 0 | [Demo](0) |
+| 0 | 0 | [Demo](0) |
 
 ## License
 
