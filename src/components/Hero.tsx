@@ -75,7 +75,7 @@ const Hero = () => {
           >
             <span className='text-2xl'>👋</span>
             <span className='text-gray-700 dark:text-gray-300 text-sm md:text-base'>
-              Hello, I'm Khairul Haque
+              Hello, I'm Jesan
             </span>
           </motion.div>
 
@@ -102,7 +102,7 @@ const Hero = () => {
             className='text-md text-gray-600 dark:text-gray-400 mb-8 max-w-xl mx-auto leading-relaxed px-4'
             variants={itemVariants}
           >
-            I create stunning, interactive web experiences that blend beautiful
+            I create stunning, interactive software & web experiences that blend beautiful
             design with cutting-edge technology. Specialized in React,
             TypeScript, and modern frontend frameworks.
           </motion.p>
@@ -115,10 +115,10 @@ const Hero = () => {
             {[
               {
                 icon: Palette,
-                label: '5+ Years Experience',
+                label: '1+ Years Experience',
                 color: 'text-purple-500',
               },
-              { icon: Code, label: '100+ Projects', color: 'text-blue-500' },
+              { icon: Code, label: '10+ Projects', color: 'text-blue-500' },
             ].map((stat, index) => (
               <motion.div
                 key={index}

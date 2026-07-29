@@ -5,9 +5,9 @@ import { Calendar, MapPin, Building } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Frontend UI / UX Developer',
-      company: 'Contabo',
-      location: 'Remote (Germany)',
+      title: 'Software Engineer',
+      company: 'Self Employed',
+      location: 'Dhaka, Bangladesh',
       period: '2024 - Present',
       description: [
         'Component Development: Designing and implementing reusable components for the frontend to streamline development and maintain consistency across projects.',
@@ -24,10 +24,10 @@ const Experience = () => {
       color: 'bg-purple-500',
     },
     {
-      title: 'Web Designer',
-      company: 'Stellen-kombi GmbH',
-      location: 'Esen, Germany',
-      period: '2023 - 2024',
+      title: 'Software Engineer',
+      company: 'Self Employed',
+      location: 'Dhaka, Bangladesh',
+      period: '2024 - Present',
       description: [
         'Developed and maintained multiple client-facing web applications',
         'Improved application performance by 60% through code optimization and lazy loading',
@@ -38,10 +38,10 @@ const Experience = () => {
       color: 'bg-blue-500',
     },
     {
-      title: 'Junior Web Developer',
-      company: 'Rheinduett GmbH',
-      location: 'Köln, Germany',
-      period: '2022 - 2023',
+     title: 'Software Engineer',
+      company: 'Self Employed',
+      location: 'Dhaka, Bangladesh',
+      period: '2024 - Present',
       description: [
         'Built responsive websites for various clients using modern web technologies',
         'Worked closely with designers to implement pixel-perfect UI components',
@@ -52,10 +52,10 @@ const Experience = () => {
       color: 'bg-green-500',
     },
     {
-      title: 'Web Development Intern',
-      company: 'Braintrust',
-      location: 'Bremen, Germany',
-      period: '2022',
+      title: 'Software Engineer',
+      company: 'Self Employed',
+      location: 'Dhaka, Bangladesh',
+      period: '2024 - Present',
       description: [
         'Assisted in developing company website and internal tools',
         'Gained hands-on experience with modern web development workflows',
@@ -110,7 +110,7 @@ const Experience = () => {
             className='text-md text-gray-600 dark:text-gray-400 max-w-xl mx-auto'
             variants={itemVariants}
           >
-            My professional journey in frontend development and the impactful
+            My professional journey in Software development and the impactful
             projects I've worked on
           </motion.p>
         </motion.div>

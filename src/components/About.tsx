@@ -15,9 +15,9 @@ const About = () => {
   const services = [
     {
       icon: Code2,
-      title: 'Frontend Development',
+      title: 'Backend Development',
       description:
-        'Building responsive, interactive web applications using modern frameworks and libraries.',
+        'Building interactive web applications using modern frameworks and libraries.',
       color: 'text-blue-500',
     },
     {
@@ -100,7 +100,7 @@ const About = () => {
             className='text-md text-gray-600 dark:text-gray-400 max-w-xl mx-auto'
             variants={itemVariants}
           >
-            Passionate frontend developer with a keen eye for design and a love
+            Passionate Software Engineer, AI/ML Engineer & web developer with a keen eye for design and a love
             for creating exceptional digital experiences
           </motion.p>
         </motion.div>
@@ -119,11 +119,11 @@ const About = () => {
                 Hi, I'm Khairul Haque
               </h3>
               <p className='text-gray-600 dark:text-gray-400 mb-4'>
-                With over 6 years of experience in frontend development, I
-                specialize in creating modern, responsive web applications that
+                With  1 years of experience in Software development, I
+                specialize in creating modern, responsive software applications that
                 not only look great but also deliver exceptional user
-                experiences. My journey in web development started with a
-                curiosity about how websites work, and it has evolved into a
+                experiences. My journey in software development started with a
+                curiosity about how software work, and it has evolved into a
                 passion for crafting digital solutions that make a difference.
               </p>
               <p className='text-gray-600 dark:text-gray-400 mb-4'>

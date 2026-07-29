@@ -39,13 +39,13 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'haquemmkhairul@gmail.com',
-      href: 'mailto:info@pyonet.com',
+      value: 'habibur.rahman.jesan@gmail.com',
+      href: '#',
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Germany',
+      value: 'Dhaka, Bangladesh',
       href: '#',
     },
   ];
@@ -54,19 +54,19 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/mkhaque',
+      href: 'https://www.linkedin.com/in/jesan123',
       color: 'hover:text-blue-600',
     },
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/mkhaque1',
+      href: 'https://github.com/JESAN-HR',
       color: 'hover:text-gray-800 dark:hover:text-gray-300',
     },
     {
       icon: Twitter,
       label: 'Twitter',
-      href: 'https://twitter.com/mkhaque1',
+      href: 'https://x.com/AlphaJesan',
       color: 'hover:text-blue-400',
     },
   ];
@@ -316,7 +316,7 @@ const Contact = () => {
                 <Mail className="w-4 h-4" />
                 <span>
                   {verified ? (
-                    <a href="mailto:mkhaque29@gmail.com" className="underline">
+                    <a href="mailto:habibur.rahman.jesan@gmail.com" className="underline">
                       Email me directly
                     </a>
                   ) : (
@@ -366,7 +366,7 @@ const Contact = () => {
                             setVerifyError('');
                             setTimeout(() => {
                               window.location.href =
-                                'mailto:mkhaque29@gmail.com';
+                                'mailto:habibur.rahman.jesan@gmail.com';
                             }, 300);
                           } else {
                             setVerifyError('Incorrect! Try again.');

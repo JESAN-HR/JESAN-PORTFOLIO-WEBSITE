@@ -22,13 +22,13 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/mkhaque1', label: 'GitHub' },
+    { icon: Github, href: 'https://github.com/JESAN-HR', label: 'GitHub' },
     {
       icon: Linkedin,
-      href: 'https://linkedin.com/in/mkhaque',
+      href: 'https://www.linkedin.com/in/jesan123',
       label: 'LinkedIn',
     },
-    { icon: Twitter, href: 'https://twitter.com/mkhaque1', label: 'Twitter' },
+    { icon: Twitter, href: 'https://x.com/AlphaJesan', label: 'Twitter' },
   ];
 
   const scrollToTop = () => {
@@ -60,8 +60,8 @@ const Footer = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              Frontend Developer & UI Designer passionate about creating
-              beautiful, functional web experiences. Let's build something
+              Software Developer & Backend Developer passionate about creating
+              beautiful, functional software & web experiences. Let's build something
               amazing together.
             </motion.p>
             <motion.div
@@ -72,7 +72,7 @@ const Footer = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <a
-                href="mailto:info@pyonet.com"
+                href="#"
                 className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors duration-200"
               >
                 <Mail className="w-4 h-4" />
