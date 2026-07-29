@@ -85,7 +85,7 @@ const Hero = () => {
             variants={itemVariants}
           >
             <span className='text-gray-900 dark:text-white'>
-              Frontend Developer &{' '}
+              Software Developer &{' '}
             </span>
             <motion.span
               className='inline-block metallic-text-onetime'
@@ -93,7 +93,7 @@ const Hero = () => {
               initial='hidden'
               animate='visible'
             >
-              CMS Expert
+              AI/ML Engineer
             </motion.span>
           </motion.h1>
 

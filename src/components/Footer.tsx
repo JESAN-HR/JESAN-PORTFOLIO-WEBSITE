@@ -51,7 +51,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold">JD</span>
               </div>
-              <span className="text-2xl font-bold">Khairul Haque</span>
+              <span className="text-2xl font-bold">MD. Habibur Rahman Jesan</span>
             </motion.div>
             <motion.p
               className="text-gray-400 mb-6 max-w-md"
@@ -192,7 +192,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2 text-sm text-gray-400 mb-4 md:mb-0">
             <span>Made with</span>
             <Heart className="w-4 h-4 text-red-500" />
-            <span>by Khairul Haque © {currentYear}. All rights reserved.</span>
+            <span>by Jesan © {currentYear}. All rights reserved.</span>
           </div>
 
           {/* Back to Top Button */}
